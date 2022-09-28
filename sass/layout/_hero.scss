@@ -3,7 +3,7 @@
     background-color: var(--background-color-hero);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
-        url("/images/mobile/hero/hero.jpg");
+        url("../images/mobile/hero/hero.jpg");
     background-size: cover;
     background-position: center top;
     padding-top: 118px;
@@ -52,7 +52,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     .hero{
         background-image: linear-gradient(rgba(47, 48, 58, 0.4),
                     rgba(47, 48, 58, 0.4)),
-                url('/images/mobile/hero/hero@2x.jpg');
+                url('../images/mobile/hero/hero@2x.jpg');
     }
 }
 
@@ -60,7 +60,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     .hero {
         background-image: linear-gradient(rgba(47, 48, 58, 0.4),
                     rgba(47, 48, 58, 0.4)),
-                url('/images/tablet/hero/hero.jpg');
+                url('../images/tablet/hero/hero.jpg');
         max-width: 1199px;
     }
 }
@@ -72,7 +72,7 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
     .hero {
         background-image: linear-gradient(rgba(47, 48, 58, 0.4),
                     rgba(47, 48, 58, 0.4)),
-                url('/images/tablet/hero/hero@2x.jpg');
+                url('../images/tablet/hero/hero@2x.jpg');
     }
 }
 
@@ -80,7 +80,7 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
     .hero {
         background-image: linear-gradient(rgba(47, 48, 58, 0.4),
                     rgba(47, 48, 58, 0.4)),
-                url('/images/desktop/hero/hero.jpg');
+                url('../images/desktop/hero/hero.jpg');
         max-width: 1600px;
     }
     
@@ -93,6 +93,6 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
     .hero {
         background-image: linear-gradient(rgba(47, 48, 58, 0.4),
                     rgba(47, 48, 58, 0.4)),
-                url('/images/desktop/hero/hero@2x.jpg');
+                url('../images/desktop/hero/hero@2x.jpg');
     }
 }

@@ -5,7 +5,7 @@
         left: 0;
         z-index: 100;
         width: 100vw;
-        height: 100vh;
+        height: 100%;
         background-color: var(--light-color);
 
         opacity: 0;
@@ -100,7 +100,15 @@
     
     }
     .mobile-menu-social__item {
-      
+
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            /* identical to box height, or 122% */
+        
+            letter-spacing: 0.02em;
         font-weight: 500;
         font-size: 18px;
         line-height: 1.2;
