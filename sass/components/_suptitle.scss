@@ -1,0 +1,12 @@
+.suptitle {
+    @include font(36px, 700, 1.17, 0.03em);
+    text-align: center;
+    color: var(--dark-color);
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+    .suptitle {
+        margin-bottom: 50px;
+    }
+}
