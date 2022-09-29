@@ -120,7 +120,7 @@ body {
     left: 0;
     z-index: 100;
     width: 100vw;
-    height: 100%;
+    height: 100vh;
     background-color: var(--light-color);
     opacity: 0;
     visibility: hidden;
@@ -620,6 +620,12 @@ body {
   }
 }
 @media screen and (min-width: 1200px) {
+  .menu {
+    display: flex;
+    column-gap: 50px;
+    margin-left: 92px;
+    margin-right: auto;
+  }
   .contact {
     display: flex;
     column-gap: 30px;
@@ -690,7 +696,6 @@ body {
   .logo_theme_header {
     padding-top: 24px;
     padding-bottom: 25px;
-    margin-right: 93px;
   }
   .logo {
     font-size: 26px;
@@ -764,6 +769,12 @@ body {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/desktop/hero/hero.jpg");
     max-width: 1600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  .main-title {
+    font-size: 44px;
+    line-height: 1.36;
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-resolution: 2dppx) and (min-width: 1200px) {
