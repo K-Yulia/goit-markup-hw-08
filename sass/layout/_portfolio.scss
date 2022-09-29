@@ -80,6 +80,11 @@
     color: var(--text-color-lighter);
 }
 
+@media screen and (max-width: 379px) {
+    .portfolio-img {
+        max-width: 100%;
+    }
+}
 
 @media screen and (max-width: 767px) {
     .portfolio-menu {
@@ -97,6 +102,9 @@
         row-gap: 30px;
     }
     
+    .portfolio-img {
+        max-width: 100%;
+    }
     .our-works__overlay {
         display: flex;
         align-items: center;

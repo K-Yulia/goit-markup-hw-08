@@ -940,10 +940,18 @@ body {
   fill: var(--light-color);
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 379px) {
+  .team-img {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
   .our-team__item {
     width: 100%;
     max-height: 622px;
+  }
+  .team-img {
+    min-width: 100%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1328,6 +1336,11 @@ address {
   color: var(--text-color-lighter);
 }
 
+@media screen and (max-width: 379px) {
+  .portfolio-img {
+    max-width: 100%;
+  }
+}
 @media screen and (max-width: 767px) {
   .portfolio-menu {
     display: flex;
@@ -1341,6 +1354,9 @@ address {
     display: flex;
     flex-direction: column;
     row-gap: 30px;
+  }
+  .portfolio-img {
+    max-width: 100%;
   }
   .our-works__overlay {
     display: flex;
