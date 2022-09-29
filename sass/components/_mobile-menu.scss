@@ -1,3 +1,17 @@
+@media screen and (max-width: 450px) {
+    .mobile-menu__container {
+        padding-left: 20px;
+    }
+
+    .mobile-menu-social {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+
+    }
+}
+
+
 @media screen and (max-width: 767px) {
     .mobile-menu {
         position: fixed;
@@ -125,6 +139,8 @@
         transform: rotate(90deg);
     }
 }
+
+
 
 @media screen and (min-width: 768px) {
     .mobile-menu {

@@ -113,6 +113,16 @@ body {
     width: 1200px;
   }
 }
+@media screen and (max-width: 450px) {
+  .mobile-menu__container {
+    padding-left: 20px;
+  }
+  .mobile-menu-social {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+}
 @media screen and (max-width: 767px) {
   .mobile-menu {
     position: fixed;
@@ -258,6 +268,10 @@ body {
 }
 
 .modal {
+  width: 100%;
+  height: 100%;
+  max-width: 450px;
+  max-height: 609px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -267,6 +281,7 @@ body {
   transform: translate(-50%, -50%) scale(1);
   transition: scale var(--transition-animation);
   padding: 40px;
+  overflow: scroll;
 }
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0.8);
@@ -287,18 +302,6 @@ body {
   fill: var(--accent-color);
 }
 
-@media screen and (max-width: 767px) {
-  .modal {
-    width: 450px;
-    height: 609px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .modal {
-    width: 450px;
-    height: 609px;
-  }
-}
 @media screen and (min-width: 1200px) {
   .modal {
     width: 528px;
